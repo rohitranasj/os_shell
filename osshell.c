@@ -31,7 +31,22 @@ char* argval[ARGM]; // our local argc, argv
 int argcount = 0,inBackground = 0;
 int externalIn=0,externalOut=0;
 char inputfile[INB],outputfile[INB];
-
+void screenfetch();
+void about();
+void getInput();
+int function_exit();
+void function_pwd(char*, int);
+void function_cd(char*);
+void function_mkdir(char*);
+void function_rmdir(char*);
+void function_clear();
+void nameFile(struct dirent*, char*);
+void function_ls();
+void function_lsl();
+void function_cp(char*, char*);
+void executable();
+void pipe_dup(int, instruction*);
+void run_process(int, int, instruction*);
 struct _instr
 {
     char * argval[INB];
