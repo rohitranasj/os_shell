@@ -1,4 +1,3 @@
-
 #include <sys/types.h>
 #include <sys/wait.h>
 #include<stdlib.h>
@@ -19,7 +18,7 @@
 #define B "\x1b[94m"
 #define D "\x1B[0m"
 #define C "\x1b[96m"
-int c;
+int c; 
 
 
 struct _instr
