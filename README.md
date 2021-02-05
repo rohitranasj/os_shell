@@ -2,8 +2,11 @@
 
 #Q40. The shell is a program that interprets commands and acts as an intermediary between the user and the inner workings of the operating system and as such is arguably one of the most 
 important parts of a Unix system. In this assignment, we shall start making our very own version of a Unix shell. Submission: Write a simple shell in C. Call it simplesh.c The shell should implement following features: 
+
 ● The shell should run continuously, and display a prompt (>, similar to $) when waiting for input. Include the full path of the current directory also in the prompt followed by the “>” sign (for ex., /usr/home/me/Desktop>). ● The shell should read a line from input one at a time. 
+
 ● After parsing and lexing the command, the shell should execute it. ● Implement the following Built-in Commands, ● clear: clear the screen ● env: displays all environment parameters 
+
 ● cd 
 ● pwd: prints the current directory 
 ● mkdir : creates a directory called "dir" 
